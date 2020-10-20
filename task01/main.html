@@ -1,31 +1,19 @@
 <html>
     <head>
-        <style>
-        table {
-          border-collapse: collapse;
-        }
-        
-        table, td, th {
-          border: 1px solid black;
-        }
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Commissioner">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+        <link rel="stylesheet" href="css/style.css">
 
-        #centerLayer {
-            margin:0 auto;
-            width:600px;
-            height:500px;
-        }
-
-        </style>
-        </head>
+    </head>
+    <body>
 <div id="centerLayer">
     <div>
         <H2>Вакансия: Junior Frontend Developer</H2>
     </div>
-    <br>
 
     <div>
-        <div style="display: inline-block;"><img src="https://s00.yaplakal.com/pics/pics_original/7/7/3/4718377.png" alt="фото кандидата"></div>
-        <div style="display: inline-block;">
+        <div style="display: inline-block;"><img class="image" src="https://s00.yaplakal.com/pics/pics_original/7/7/3/4718377.png" alt="фото кандидата"></div>
+        <div style="display: inline-block; vertical-align: top;">
                     <div>Имя: (ваше имя)</div>
                     <div><a href="https://github.com/helegx86/levelup.git">Ссылка на репозиторий в GitHub</a></div>
                     <div>Опыт работы: нет</div>
@@ -78,7 +66,7 @@
     </div>
     <div>
         <input type=search placeholder="введите навык...">
-        <input type="submit" value="Добавить в список">
+        <input id="add_skill" type="submit" value="Добавить в список">
     </div>
     <br>
     <div>
@@ -154,5 +142,13 @@
                 </tr>
             </tbody>
         </table>
+        
+        <br>
+        <div align="right">
+            <input id="sender" type="submit" value="Отправить">
+        </div>
 </div>
+
+</body>
+
 </html>
