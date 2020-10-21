@@ -23,13 +23,15 @@ table {
   }
 
   * {
-    font-family: 'Merriweather';
+    font-family: 'Balsamiq Sans';
+    font-size: 18px;
   }
   
-  h2 {
+  h1 {
     color: gray;
     font-family: 'Commissioner';
     font-weight: bolder;
+    font-size: 22px;
   }
 
   input[type=submit]{
