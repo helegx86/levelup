@@ -43,6 +43,8 @@ table {
     margin: 4px 2px;
     cursor: pointer;
   }
+
+
   
   input:hover[type=submit]{
     background-color: rgb(182, 176, 176);
@@ -71,3 +73,8 @@ table {
 body {
     background: linear-gradient(45deg, #3e4437, #5f7e25);
 }
+
+.own_label
+{
+   color: rgb(73, 63, 128)
+ }

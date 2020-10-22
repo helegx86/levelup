@@ -14,21 +14,21 @@
     <div>
         <div style="display: inline-block;"><img class="image" src="resources/portret.png" alt="фото кандидата"></div>
         <div style="display: inline-block; vertical-align: top;">
-                    <div>Имя: (ваше имя)</div>
+                    <span class="own_label">Имя: </span><span>Олег Алексеев</span>
                     <div><a href="https://github.com/helegx86/levelup.git">Ссылка на репозиторий в GitHub</a></div>
-                    <div>Опыт работы: нет</div>
+                    <span class="own_label">Опыт работы: </span><span>нет</span>
         </div>
     </div>
     
 
     <br>
     <div>
-        <label for="date_interview">Дата собеседования</label>
+        <label for="date_interview" class="own_label">Дата собеседования</label>
         <input type="date" id="date_interview" name="date_interview">
     </div>
     <br>
     <div>
-        <label for="lang_skills">Уровень английского</label>
+        <label for="lang_skills" class="own_label">Уровень английского</label>
         <div id="lang_skills">
             <input type="radio" id="langSkillChoice1"
              name="lang_skill" value="bad">
@@ -52,7 +52,7 @@
         
 
     <div>
-        <lh>Ключевые навыки:</lh>
+        <lh class="own_label">Ключевые навыки:</lh>
         <ul id="skills">
             <li>HTML</li>
             <li>CSS/LESS</li>
@@ -64,7 +64,7 @@
 
     <br>
     <div>
-        <label for="communicate">Коммуникабельность:</label>
+        <label for="communicate" class="own_label">Коммуникабельность:</label>
 
         <select name="communicate" id="communicate">
         <option value="" disabled selected>Выберите значение</option>
@@ -77,16 +77,14 @@
     <br>
 
     <div>
-        <label for="id_salary">Желаемая з/п:</label>
+        <label for="id_salary" class="own_label">Желаемая з/п:</label>
         <input type="text" id="salary" name="id_salary" placeholder="введите значение">
        
     </div>
     <br>
 
     <div>
-        <div>
-            <label>Подходит по критериям:</label>
-        </div>
+        <div class="own_label">Подходит по критериям:</div>
         <div>
             <input type="checkbox"
              name="know_eng" id="id_know_eng" value="know_eng">
@@ -109,9 +107,7 @@
 
 
 <br>
-        <div>
-            <label>Образование, курсы и т.п</label>
-        </div>
+        <div class="own_label">Образование, курсы и т.п</div>
         <table>
             <tbody>
                 <tr>
