@@ -23,11 +23,12 @@
     display: flex;
     flex-direction: column;
     height: 70px;
-    max-height: 70px;
     background-color: rgb(201, 200, 241);
     padding: 0px 10px 0px 10px;
     justify-content: center;
     border: 1px solid black;
+
+    box-sizing: border-box; 
 }
 
 .chat_creator
@@ -60,11 +61,11 @@ margin-left: 12px;
   }
 
   .message{
-    height: 150px;
+
     display: flex;
     flex-flow: row;
     justify-content: center;
-    box-sizing: border-box; /* Ширина блока с полями */
+
     background-color:  rgb(158, 156, 224);
   }
 
@@ -79,7 +80,8 @@ margin-left: 12px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box; /* Ширина блока с полями */
+    flex-shrink: 0;
+
   }
 
   .message_content{
@@ -91,7 +93,9 @@ margin-left: 12px;
     align-items: flex-start;
     background-color:  rgb(158, 156, 224);
     border-left: 1px solid black;
-    box-sizing: border-box; /* Ширина блока с полями */
+    flex-grow: 0;
+
+ 
   }
 
   .circle {
